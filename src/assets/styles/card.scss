@@ -1,0 +1,29 @@
+.card {
+    &__text {
+        text-decoration: inherit;
+        text-transform: inherit;
+        font-size: 0.975rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.00875rem;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    &__header-title {
+        color: $space-cadet;
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.00125rem;
+        margin-bottom: .875rem;
+    }
+
+    &__header-subtitle {
+        color: $manatee;
+        font-size: 1rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+        letter-spacing: 0.00275rem;
+        opacity: .8
+    }
+}
